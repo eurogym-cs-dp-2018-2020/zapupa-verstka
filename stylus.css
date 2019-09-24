@@ -11,12 +11,20 @@ nav {
     padding: 1%;
 }
 
+nav div {
+    margin-top: 3%;
+}
+
 nav a {
     margin: 1%;
 }
 
 nav img {
     float: right;
+}
+nav img:hover {
+    filter: brightness(1.4);
+    cursor: pointer;
 }
 
 a[href] {
@@ -44,7 +52,7 @@ header div {
 header a {
     padding: 1%;
     padding-right: 5%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
 }
 header a[href]:hover {
     color: unset;
@@ -77,6 +85,7 @@ main section h2 {
     margin: 0;
     padding: 0;
     margin-left: 6%;
+    font-size: 250%;
 }
 
 footer {
@@ -86,4 +95,18 @@ footer {
 
 footer a[href] {
     color: white;
+}
+
+footer hr {
+    margin: 2%;
+    margin-top: .5%;
+    margin-bottom: 5%;
+}
+
+footer h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    margin-left: 6%;
+    font-size: 250%;
 }
