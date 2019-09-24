@@ -11,8 +11,12 @@ nav {
     padding: 1%;
 }
 
-nav figure {
-    display: inline;
+nav a {
+    margin: 1%;
+}
+
+nav img {
+    float: right;
 }
 
 a[href] {
@@ -30,6 +34,25 @@ header {
 
 header > h1 {
     font-size: 300%;
+}
+
+header a {
+    padding: 1%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+}
+
+header a:nth-of-type(1) {
+    background: #ff3333;
+}
+header a:nth-of-type(2) {
+    background: #ffb222;
+}
+header a:nth-of-type(3) {
+    background: #18733a;
+}
+header a:nth-of-type(4) {
+    background: #026dfa;
 }
 
 footer {
