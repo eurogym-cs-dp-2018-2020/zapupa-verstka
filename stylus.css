@@ -36,10 +36,18 @@ header > h1 {
     font-size: 300%;
 }
 
+header div {
+    display: flex;
+    justify-content: center;
+}
+
 header a {
     padding: 1%;
     padding-right: 5%;
     padding-bottom: 4%;
+}
+header a[href]:hover {
+    color: unset;
 }
 
 header a:nth-of-type(1) {
@@ -53,6 +61,19 @@ header a:nth-of-type(3) {
 }
 header a:nth-of-type(4) {
     background: #026dfa;
+}
+
+main section hr {
+    margin: 2%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+main section h2 {
+    color: #1a4cb6;
+    margin: 0;
+    padding: 0;
+    margin-left: 6%;
 }
 
 footer {
