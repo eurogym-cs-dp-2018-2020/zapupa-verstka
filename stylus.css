@@ -1,20 +1,26 @@
+@font-face {
+    font-family: 'woff';
+    font-display: swap;
+    src: url('woff.ttf');
+}
 body {
     background-color: #ededed;
     transition-duration: .1s;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'woff';
 }
 
-.container{
+.container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1300px;
+    padding: 1em;
 }
 
 header {
     background-color: #1a4cb6;
-    text-transform: uppercase;
     padding: 1%;
     height: 140px;
 }
@@ -49,7 +55,7 @@ a[href]:hover {
     color: #ff3333;
 }
 
-nav {
+nav, h1, h2, h3 {
     text-transform: uppercase
 }
 
@@ -73,9 +79,6 @@ body > nav a {
     padding: 20px;
     width: 265px;
     height: 110px;
-    /* padding: 1%;
-    padding-right: 5%;
-    padding-bottom: 5%; */
 }
 body > nav a[href]:hover {
     color: unset;
@@ -94,27 +97,16 @@ body > nav a:nth-of-type(4) {
     background: #026dfa;
 }
 
-main section hr {
-    margin: 1.5%;
-    margin-top: .5%;
-    margin-bottom: .5%;
-    background-color: #1a4cb6;
-    height: 1px;
-    border: 0;
-}
-
 main section h2 {
-    border: 1px solid #1a4cb6;
+    border: 2px solid #1a4cb6;
     border-left: none;
     border-right: none;
     color: #1a4cb6;
-    margin: 2%;
+    margin: 1.5em 0;
     padding: .1em;
+    padding-top: .2em;
     padding-left: 6%;
-    margin-left: 1%;
-    margin-right: 1%;
     font-size: 250%;
-    text-transform: uppercase;
 }
 
 main section ul {
@@ -126,6 +118,10 @@ main section ul {
 
 main section ul li {
     flex-basis: 20%;
+    margin: 0 auto;
+}
+main section ul li img {
+    width: 100%;
 }
 
 ul {
@@ -135,37 +131,25 @@ ul {
 footer {
     background-color: #262626;
     color: white;
+    height: 500px;
 }
 
 footer a[href] {
     color: white;
 }
 
-footer hr {
-    margin: 2%;
-    margin-top: .5%;
-    margin-bottom: 5%;
-}
-
 footer h2 {
-    border: 1px solid white;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    margin: 2%;
+    border-bottom: 1px solid white;
     padding: .1em;
     padding-left: 6%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-top: 0;
     font-size: 250%;
 }
 
 footer section {
     width: 50%;
-}
-
-footer section:nth-child(2) {
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row {
