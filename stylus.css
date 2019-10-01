@@ -9,18 +9,19 @@ body {
 .container{
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 header {
     background-color: #1a4cb6;
     text-transform: uppercase;
     padding: 1%;
-    height: 150px;
+    height: 140px;
 }
 
 header nav {
     margin-top: 40px;
+    font-size: 120%;
 }
 
 header nav a {
@@ -62,7 +63,7 @@ nav div {
     justify-content: space-evenly;
     align-self: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     font-size: 150%;
     overflow: hidden;
@@ -70,8 +71,8 @@ nav div {
 
 body > nav a {
     padding: 20px;
-    width: 240px;
-    height: 100px;
+    width: 265px;
+    height: 110px;
     /* padding: 1%;
     padding-right: 5%;
     padding-bottom: 5%; */
@@ -125,6 +126,10 @@ main section ul {
 
 main section ul li {
     flex-basis: 20%;
+}
+
+ul {
+    padding: 0;
 }
 
 footer {
