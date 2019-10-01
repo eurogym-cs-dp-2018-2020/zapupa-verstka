@@ -132,6 +132,13 @@ footer {
     background-color: #262626;
     color: white;
     height: 500px;
+    overflow: scroll;
+}
+
+footer > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 footer a[href] {
@@ -148,8 +155,6 @@ footer h2 {
 
 footer section {
     width: 50%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .row {
