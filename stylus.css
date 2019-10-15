@@ -18,6 +18,7 @@ body {
     margin-right: auto;
     max-width: 1300px;
     padding: 1em;
+    overflow-wrap: break-word;
 }
 
 header {
@@ -68,7 +69,7 @@ h3 {
     text-transform: uppercase
 }
 
-nav>h1 {
+nav > h1 {
     font-size: 300%;
 }
 
@@ -92,29 +93,29 @@ nav div *:last-child {
     margin-right: 0;
 }
 
-body>nav a {
+body > nav a {
     padding: 20px;
     width: 265px;
     height: 110px;
 }
 
-body>nav a[href]:hover {
+body > nav a[href]:hover {
     color: unset;
 }
 
-body>nav a:nth-of-type(1) {
+body > nav a:nth-of-type(1) {
     background: #ff3333;
 }
 
-body>nav a:nth-of-type(2) {
+body > nav a:nth-of-type(2) {
     background: #ffb222;
 }
 
-body>nav a:nth-of-type(3) {
+body > nav a:nth-of-type(3) {
     background: #18733a;
 }
 
-body>nav a:nth-of-type(4) {
+body > nav a:nth-of-type(4) {
     background: #026dfa;
 }
 
@@ -156,7 +157,7 @@ footer {
     overflow: scroll;
 }
 
-footer>div>div {
+footer > div > div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
