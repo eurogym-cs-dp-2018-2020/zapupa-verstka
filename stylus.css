@@ -3,6 +3,7 @@
     font-display: swap;
     src: url('woff.ttf');
 }
+
 body {
     background-color: #ededed;
     transition-duration: .1s;
@@ -41,7 +42,7 @@ header div {
     height: inherit;
 }
 
-header div > a {
+header div>a {
     padding: 0;
     margin: 1% 0;
 }
@@ -60,11 +61,14 @@ a[href]:hover {
     color: #ff3333;
 }
 
-nav, h1, h2, h3 {
+nav,
+h1,
+h2,
+h3 {
     text-transform: uppercase
 }
 
-nav > h1 {
+nav>h1 {
     font-size: 300%;
 }
 
@@ -75,35 +79,42 @@ nav div {
     font-size: 150%;
     flex-basis: 25%;
 }
+
 nav div * {
     margin: 10px 5px;
 }
+
 nav div *:first-child {
     margin-left: 0;
 }
+
 nav div *:last-child {
     margin-right: 0;
 }
 
-body > nav a {
+body>nav a {
     padding: 20px;
     width: 265px;
     height: 110px;
 }
-body > nav a[href]:hover {
+
+body>nav a[href]:hover {
     color: unset;
 }
 
-body > nav a:nth-of-type(1) {
+body>nav a:nth-of-type(1) {
     background: #ff3333;
 }
-body > nav a:nth-of-type(2) {
+
+body>nav a:nth-of-type(2) {
     background: #ffb222;
 }
-body > nav a:nth-of-type(3) {
+
+body>nav a:nth-of-type(3) {
     background: #18733a;
 }
-body > nav a:nth-of-type(4) {
+
+body>nav a:nth-of-type(4) {
     background: #026dfa;
 }
 
@@ -129,6 +140,7 @@ main section ul li {
     flex-basis: 20%;
     margin: 0 auto;
 }
+
 main section ul li img {
     width: 100%;
 }
@@ -144,7 +156,7 @@ footer {
     overflow: scroll;
 }
 
-footer > div > div {
+footer>div>div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -190,49 +202,81 @@ footer section {
 }
 
 .col-1 {
-    flex-basis: 8.3333%;
+    flex-basis: 5%;
 }
 
 .col-2 {
-    flex-basis: 16.6666%;
+    flex-basis: 10%;
 }
 
 .col-3 {
-    flex-basis: 24.9999%;
+    flex-basis: 15%;
 }
 
 .col-4 {
-    flex-basis: 33.3333%;
+    flex-basis: 20%;
 }
 
 .col-5 {
-    flex-basis: 41.6665%;
+    flex-basis: 25%;
 }
 
 .col-6 {
-    flex-basis: 49.9998%;
+    flex-basis: 30%;
 }
 
 .col-7 {
-    flex-basis: 58.3331%;
+    flex-basis: 35%;
 }
 
 .col-8 {
-    flex-basis: 66.6664%;
+    flex-basis: 40%;
 }
 
 .col-9 {
-    flex-basis: 74.9997%;
+    flex-basis: 45%;
 }
 
 .col-10 {
-    flex-basis: 83.3333%;
+    flex-basis: 50%;
 }
 
 .col-11 {
-    flex-basis: 91.6663%;
+    flex-basis: 55%;
 }
 
 .col-12 {
+    flex-basis: 60%;
+}
+
+.col-13 {
+    flex-basis: 65%;
+}
+
+.col-14 {
+    flex-basis: 70%;
+}
+
+.col-15 {
+    flex-basis: 75%;
+}
+
+.col-16 {
+    flex-basis: 80%;
+}
+
+.col-17 {
+    flex-basis: 85%;
+}
+
+.col-18 {
+    flex-basis: 90%;
+}
+
+.col-19 {
+    flex-basis: 95%;
+}
+
+.col-20 {
     flex-basis: 100%;
 }
