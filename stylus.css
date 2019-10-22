@@ -209,7 +209,15 @@ footer section:last-of-type > div div a {
 .col-9,
 .col-10,
 .col-11,
-.col-12 {
+.col-12,
+.col-13,
+.col-14,
+.col-15,
+.col-16,
+.col-17,
+.col-18,
+.col-19,
+.col-20 {
     padding-left: 8px;
     padding-right: 8px;
     box-sizing: border-box;
