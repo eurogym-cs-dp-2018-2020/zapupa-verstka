@@ -4,6 +4,10 @@
     src: url('woff.ttf');
 }
 
+* {
+    transition-duration: .2s;
+}
+
 body {
     background-color: #ededed;
     transition-duration: .1s;
@@ -26,28 +30,23 @@ header {
     padding: 0;
     height: 140px;
 }
-
 header nav {
     margin-top: 40px;
     font-size: 120%;
 }
-
 header nav a {
     margin: 10px;
 }
-
 header div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     height: inherit;
 }
-
 header div > a {
     padding: 0;
     margin: 1% 0;
 }
-
 header img:hover {
     filter: brightness(1.3);
     cursor: pointer;
@@ -57,7 +56,6 @@ a[href] {
     color: black;
     text-decoration: none;
 }
-
 a[href]:hover {
     color: #ff3333;
 }
@@ -74,29 +72,21 @@ nav > h1 {
 }
 
 nav div {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     font-size: 150%;
-    flex-basis: 25%;
 }
 
 nav div * {
     margin: 10px 5px;
 }
-
-nav div *:first-child {
-    margin-left: 0;
-}
-
-nav div *:last-child {
-    margin-right: 0;
-}
-
 body > nav a {
-    padding: 20px;
-    width: 265px;
-    height: 110px;
+    /* padding: 20px; */
+    /* height: 110px; */
+    margin-bottom: 12px;
+    padding: 10px;
+    height: 120px;
 }
 
 body > nav a[href]:hover {
